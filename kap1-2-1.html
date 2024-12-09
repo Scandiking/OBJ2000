@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<body>
+	<title>CPU</title>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	
+	<style>
+		body {
+			font-family: 'Roboto', sans-serif;
+			background-color: #f4f4f9
+			margin: 0;
+			padding: 0;
+			color: #333;
+			line-height: 1.6;			
+		}
+		
+		header {
+			background-color: #6200ea;
+			color: white;
+			padding: 10px 0;
+			text-align: center;
+			box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+		}
+		
+		h1 {
+			margin: 0;
+			font-size: 2em;
+		}
+		
+		p {
+			max-width: 800px;
+			margin: 20px auto;
+			padding: 0 20px;
+		}
+		
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 20px auto;
+			max-width: 800px;
+			padding: 0 20px;
+		}
+		
+		ul li {
+			background: #fff;
+			margin: 10px 0;
+			padding: 15px;
+			border-radius: 8px;
+			box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+			transition: background 0.3s;
+		}
+		
+		ul li:hover {
+			background-color: #eee;
+		}
+		
+		ul li a {
+			text-decoration: none;
+			color: #6200ea;
+			font-weight: bold;
+		}
+		
+		<!-- Musemarkør holdes over unordered list, understreker ul med anchor -->
+		ul li a: hover {
+			text-decoration: underline;
+		}
+		
+		<!--  Partall i unordered list alternere mellom to gråhvite nyanser for økt lesbarhet -->
+		ul li:nth-child(even) {
+			background-color: #f9f9f9
+		}
+		
+		cite {
+			font-style: italic;
+			color: #666;
+		}	
+	</style>
+	
+	
+	<h6><a href="kap1-2.html">Tilbake</a></h6>
+	<head>1.2.1 Central Processing Unit</head>
+	<p>
+		The <i>central processing unit (CPU)</i> er datamaskinens hjerne. 
+		Den henter instrukser fra minnet og kjører (execute) dem. 
+		En CPU har typisk to komponenter; en kontrollenhet og en aritmetisk/logisk enhet.
+		Kontrollenheten kontrollerer og koordinerer handlingene til de andre komponentene.
+		Den aritmetiske/logiske enheten utfører numeriske operasjoner (addisjon, subtrahering, multiplisering og dividering) og logiske operasjoner (sammenlikninger).
+	</p>
+	<p>
+		I dag bygges CPU-er på små silikonhalvlederchips som inneholder millioner av små brytere, 
+		kalt <i>transistorer</i>, for å prosessere informasjon. Hver datamaskin har en intern klokke som gir ut 
+		elektroniske pulssignaler i en konstant fart. Disse pulssignalene blir brukt til å kontrollere og 
+		synkroniserene tempoet til beregningene. En høyere klokkefrekvens lar fler instruksjoner kjøre på et 
+		gitt tidsrom. Enheten klokkehastighet måles i er <i>hertz</i>, hvor 1 Hz tilsvarer 1 puls i sekundet.
+	</p>
+	<p>
+		På 90-tallet målte vi klokkehastigheten i megahertz (MHz), men CPU-hastigheten har forbedret seg 
+		betydelig og nå snakker vi som regel om gigahertz (GHz). Intels nyeste prosessorer kjører på rundt 3GHz 
+		(red.anm: disse har gjerne flere kjerner). Originalt hadde CPU-er bare en kjerne. Kjernen er den delen av 
+		prosessoren som utfører lesing og kjøring av instruksjonene den får. For å øke prosesseringshastigheten 
+		produserer fabrikantene nå prosessorer som inneholder flere kjerner. En flerkjerneprosessor er en enkelt 
+		komponent med to eller flere kjerner. Konsumerdatamaskiner i dag har gjerne to, fire eller flere uavhengige 
+		kjerner. Snart vil prosessorer med dusinvis eller hundrevis av kjerner bli rimelige.
+	</p>
+	<img src="CPU.jpg" alt="Central processing unit, a green square with short brass color metal spikes on it">
+</body>

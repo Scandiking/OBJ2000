@@ -1,0 +1,1 @@
+A class defines the properties and behaviors for [[object]]s, such as [[StringBuilder]] and [[StringBuffer]].

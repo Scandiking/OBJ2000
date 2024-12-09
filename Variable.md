@@ -1,0 +1,1 @@
+Variables are used to store data in a program. To declare a variable is to tell the compiler what type of data a variable can hold

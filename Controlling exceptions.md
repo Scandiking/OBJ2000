@@ -1,0 +1,9 @@
+- We can't control every possible error situation
+- For example:
+	- What happens if the file is not there?
+	- What if you dont have permission to read it?
+	- Not just files
+		- What about network connections?
+		- What if printers aren't there?
+- Exception handling
+	- [[Try, catch]]

@@ -1,0 +1,1 @@
+A named constant (or simply a constant) represents permanent data that never changes. A named constant is declared by using the keyword `final`.

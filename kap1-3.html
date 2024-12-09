@@ -1,0 +1,105 @@
+<!DOCTYPE HTML, encoding="utf-8">
+<body>
+	<title>Programmeringsspråk</title>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	
+	<style>
+		body {
+			font-family: 'Roboto', sans-serif;
+			background-color: #f4f4f9
+			margin: 0;
+			padding: 0;
+			color: #333;
+			line-height: 1.6;			
+		}
+		
+		header {
+			background-color: #6200ea;
+			color: white;
+			padding: 10px 0;
+			text-align: center;
+			box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+		}
+		
+		h1 {
+			margin: 0;
+			font-size: 2em;
+		}
+		
+		p {
+			max-width: 800px;
+			margin: 20px auto;
+			padding: 0 20px;
+		}
+		
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 20px auto;
+			max-width: 800px;
+			padding: 0 20px;
+		}
+		
+		ul li {
+			background: #fff;
+			margin: 10px 0;
+			padding: 15px;
+			border-radius: 8px;
+			box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+			transition: background 0.3s;
+		}
+		
+		ul li:hover {
+			background-color: #eee;
+		}
+		
+		ul li a {
+			text-decoration: none;
+			color: #6200ea;
+			font-weight: bold;
+		}
+		
+		<!-- Musemarkør holdes over unordered list, understreker ul med anchor -->
+		ul li a: hover {
+			text-decoration: underline;
+		}
+		
+		<!--  Partall i unordered list alternere mellom to gråhvite nyanser for økt lesbarhet -->
+		ul li:nth-child(even) {
+			background-color: #f9f9f9
+		}
+		
+		cite {
+			font-style: italic;
+			color: #666;
+		}	
+	</style>
+	
+	<h6><a href="Intro_to_Java_small_tasks_website.html">Hjem</a></h6>
+	<h6><a href="kap1.html">Tilbake</a></h6>
+	<head>1.3 Programmeringsspråk</head>
+	
+	<h2>1.3 Checkpoint</h2>
+	<ul>
+		<li>1.3.1 What language does the CPU understand?</li>
+		<li>1.3.2 What is an assembly language? What is an assembler?</li>
+		<li>1.3.3 What is a high-level programming language?</li>
+		<li>1.3.4 What is an interpreter? What is a compiler?</li>
+		<li>1.3.5 What is the difference between an interpreted language and a compiled language?</li>
+	</ul>
+	<h2>1.3 Checkpoint besvarelse</h2>
+		<ul>
+			<li>1.3.1</li>
+				<ul>Machine language/maskinspråk, i form av binærkode</ul>
+			<li>1.3.2</li>
+				<ul>Et alternativ til maskinspråk. Assembly bruker korte deskriptive ord kjent som <i>mnemonics</i> for å representere maskinspråkinstruksjoner. For eksempel for å legge sammen 2 og 3 og få resultat ville man i Assemly-kode skrevet "add 2, 3, result". En assembler brukes for å oversette assembly-språk til maskinekode (binærkode).</ul>
+			<li>1.3.3</li>
+				<ul>Høynivåspråk er programmeringsspråk som er nærmere engelsk. Fordelen er at de er mye enklere å lære og er mer generelle, man slipper å ekstrem kjennskap til datamaskinen man koder for.</ul>
+			<li>1.3.4</li>
+				<ul>En interpreter leser et "statement" fra kildekode, oversetter den til maskinkode og kjører koden med en gang. Noter deg at et statement fra kildekode kan bli oversatt til flere maskinkodeinstruksjoner.</ul>
+			<li>1.3.5</li>
+				<ul>Forskjellen er at et interpreted språk kjører én og én linje (eller statement), mens en compiler oversetter hele kildekoden til maskinkode og så kjører den.</ul>
+		</ul>
+	<p></p>
+</body>
