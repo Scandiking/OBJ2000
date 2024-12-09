@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"bc83100c6f6028ab","type":"text","text":"Table.java","x":-60,"y":-20,"width":250,"height":60},
+		{"id":"2248e253455c1321","type":"text","text":"Reservation.java","x":-60,"y":-140,"width":250,"height":60},
+		{"id":"d96ba96a8bdf1333","x":-525,"y":160,"width":400,"height":400,"type":"file","file":"Restaurant.java.md"},
+		{"id":"42e07ef29168d15e","x":-60,"y":160,"width":400,"height":400,"type":"file","file":"Table.java.md"},
+		{"id":"306a98e9510f5afb","x":-525,"y":-660,"width":400,"height":400,"type":"file","file":"Customer.java.md"},
+		{"id":"ab8708a2694c47ad","x":-60,"y":-660,"width":400,"height":400,"type":"file","file":"Reservation.java.md"},
+		{"id":"6c177e329599c67d","x":-525,"y":-20,"width":250,"height":60,"type":"text","text":"Restaurant.java"},
+		{"id":"ff3ca52ff9ac00bc","type":"text","text":"Customer.java","x":-525,"y":-140,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"5c384eb294777eb2","fromNode":"6c177e329599c67d","fromSide":"right","toNode":"bc83100c6f6028ab","toSide":"left"},
+		{"id":"5ca956d9c2671764","fromNode":"ff3ca52ff9ac00bc","fromSide":"right","toNode":"2248e253455c1321","toSide":"left"},
+		{"id":"97b2d205a4024f26","fromNode":"2248e253455c1321","fromSide":"bottom","toNode":"bc83100c6f6028ab","toSide":"top"},
+		{"id":"0ddd45a13453f48d","fromNode":"ff3ca52ff9ac00bc","fromSide":"top","toNode":"306a98e9510f5afb","toSide":"bottom"},
+		{"id":"3e1ccf742ffe71e8","fromNode":"2248e253455c1321","fromSide":"top","toNode":"ab8708a2694c47ad","toSide":"bottom"},
+		{"id":"e6236751d73ff0fb","fromNode":"6c177e329599c67d","fromSide":"bottom","toNode":"d96ba96a8bdf1333","toSide":"top"},
+		{"id":"bd6dadc48c664ecd","fromNode":"bc83100c6f6028ab","fromSide":"bottom","toNode":"42e07ef29168d15e","toSide":"top"}
+	]
+}
