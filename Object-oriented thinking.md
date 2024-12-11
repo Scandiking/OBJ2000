@@ -1,3 +1,9 @@
+
+> ## 11.7 Polymorphism
+> _Polymorphism means that a variable of a supertype can refer to a subtype object_.
+> 
+> The three pillars of object-oriented programming are [[Encapsulation]], [[inheritance]], and [[polymorphism]].
+---
 ### Chapter 10 summary  
 
 1. The procedural paradigm focuses on designing [[method]]s. The [[object]]-oriented paradigm doubles data and methods together into objects,. Software design using the object-oriented paradigm focuses on objects and operations on objects. The object-oriented approach combines the power of the procedural paradigm with an added dimension that integrates data with operations into objects.  

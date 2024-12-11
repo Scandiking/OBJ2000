@@ -1,4 +1,5 @@
-A _statement_ in Java is a single instruction executed by the [[JVM]]. Statements form the building blocks of Java programs and can perform actions such as variable assignments, method calls, loops, or condition evaluations. Each Java statement typically ends with a semicolon `;`, except for block statements or control flow structures.
+> A _statement_ in Java is a single instruction executed by the [[JVM]]. Statements form the building blocks of Java programs and can perform actions such as variable assignments, method calls, loops, or condition evaluations. Each Java statement typically ends with a semicolon `;`, except for block statements or control flow structures.
+> --- _ChatGPT_
 
 ### Best practices
 - Keep statements concise and readable
@@ -25,14 +26,14 @@ System.out.println(x); // Method call
 2. Control flow statement
 ``` java
 if (x > 5) {
-System.out.println("x is greater than 5");
+	System.out.println("x is greater than 5");
 }
 ```
 
 3. Looping statement
 ``` java
 for (int i = 0; i < 5; i++) {
-System.out.println(i);
+	System.out.println(i);
 }
 ```
 

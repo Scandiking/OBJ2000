@@ -18,6 +18,36 @@
             }
           },
           {
+            "id": "a72aec224a557dea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JRE.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JRE"
+            }
+          },
+          {
+            "id": "c1f9b2f47b3f5698",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "subclass.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "subclass"
+            }
+          },
+          {
             "id": "f03a9885dcf249c1",
             "type": "leaf",
             "state": {
@@ -25,6 +55,7 @@
               "state": {
                 "file": "Generics.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
@@ -198,34 +229,37 @@
   },
   "active": "4ba51a72b4856b13",
   "lastOpenFiles": [
-    "Data type.md",
-    "Floating-point type.md",
-    "Encapsulation.md",
-    "Exception.md",
-    "Customer.java.md",
-    "Controlling exceptions.md",
-    "Constant.md",
-    "I O streams.md",
-    "IOException.md",
-    "long type.md",
-    "JVM.md",
-    "List.md",
-    "package.md",
-    "String.md",
-    "StringBuffer.md",
-    "StringBuilder.md",
-    "`StringBuffer`.md",
+    "subclass.md",
     "Class.md",
+    "superclass.md",
+    "inheritance.md",
+    "polymorphism.md",
+    "Generics.md",
     "Object-oriented thinking.md",
-    "Object.md",
-    "overflow.md",
+    "Encapsulation.md",
+    "code.md",
+    "Throws.md",
+    "JVM.md",
+    "JRE.md",
+    "JDK.md",
+    "Wildcard import.md",
+    "Variable.md",
+    "Unchecked exception.md",
+    "Try, catch.md",
+    "Table.java.md",
+    "StringBuilder.md",
+    "StringBuffer.md",
+    "String.md",
+    "Statement.md",
     "short type.md",
-    "byte type.md",
-    "Integer type.md",
-    "Instance.md",
-    "input stream.md",
-    "If",
+    "Specific import.md",
+    "Scanner.md",
     "Restaurantoppgaven.canvas",
+    "Restaurant.java.md",
+    "ObsidianIcon.png",
+    "OBJ2000 PP16 - Avslutning - eksamen.pdf",
+    "README.md~",
+    "If",
     "Daily notes",
     "Storage.jpg",
     "LekserTilUke35/src/MoroMedGUI.java",
@@ -233,8 +267,6 @@
     "LekserTilUke35/src/ShowRuntimeErrorsQuation.java",
     "LekserTilUke35/out/production/LekserTilUke35/ShowRuntimeErrors.class",
     "LekserTilUke35/LekserTilUke35.iml~",
-    "LekserTilUke35/src/ShowRuntimeErrors.java",
-    "LekserTilUke35/ShowRuntimeErrors.java~",
-    "LekserTilUke35/ShowRuntimeErrors.java"
+    "LekserTilUke35/src/ShowRuntimeErrors.java"
   ]
 }
